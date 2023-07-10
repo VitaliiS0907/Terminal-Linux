@@ -1,0 +1,5 @@
+[Acd
+mkdir
+touch
+vim
+pwd
