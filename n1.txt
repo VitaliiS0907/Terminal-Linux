@@ -3,3 +3,5 @@ mkdir
 touch
 vim
 pwd
+cat >>
+cat>
