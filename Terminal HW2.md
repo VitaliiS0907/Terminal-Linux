@@ -137,7 +137,7 @@
 - grep -l "second" *
 
 **31) Найти все строки во всех файлах где нет комбинации *“second”***
-grep -rv "second" .
+- grep -rv "second" .
 
 **32) Найти только название и путь к файлам где нет комбинации *“second”***
 - grep -rL "second" *
@@ -161,7 +161,7 @@ grep -rv "second" .
 - grep -rn "sec" * > file_sec.txt
 
 **39) Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово *“sec”***
-grep -rl "sec" * | xargs rm -r
+- grep -rl "sec" * | xargs rm -r
 
 **40) Просто вывести в терминал строку *“Good job!!”***
 - echo 'Good job!!'
